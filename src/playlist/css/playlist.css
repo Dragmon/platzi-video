@@ -1,0 +1,19 @@
+.Playlist {
+    overflow-x: auto;
+    /*width: 500px;*/
+    white-space: nowrap;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*height: 500px;*/
+    /*background: red;*/
+    overflow-y: hidden;
+    padding-bottom: 80px;
+}
+p.Categorie-description{
+    margin: 0 0;
+    color: #b7afaf;
+}
+h2.Categorie-title {
+    margin: 5px 0 10px 0;
+}
+

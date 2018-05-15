@@ -11,6 +11,7 @@ function Category(props) {
             <p>{props.description}</p>
             <h2>{props.title}</h2>
             <Playlist
+                handleOpenModal={props.handleOpenModal}
                 playlist={props.playlist}
             />
         </div>

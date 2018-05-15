@@ -21,18 +21,19 @@ class Media extends Component {
     state = {
         author: this.props.author
     };
-
+    /*
     handleClick = (event) => {
         console.log(this.props.author);
         this.setState({
             author: 'Juan Perez'
         });
     }
+    */
 
   render() {
      
     return (
-        <div className="Media" onClick={this.handleClick}>
+        <div className="Media" onClick={this.props.handleClick}>
             <div className="Media-cover">
                 <img
                     src={this.props.cover}

@@ -1,3 +1,12 @@
 #modal-container {
     position: fixed;
+    background-color: #b3a5a5;
+    border-radius: 10px;
+    width: 30%;
+    top: 20%;
+    left: 43%;
+}
+
+.cont-modal {
+    text-align: center;
 }

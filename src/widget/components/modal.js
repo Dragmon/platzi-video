@@ -6,7 +6,7 @@ import '../../playlist/css/modal.css'
 
 function Modal(props) {
     return(
-        <div>
+        <div className="cont-modal">
             {props.children}
             <button onClick={props.handleClick}>cerrar</button>
         </div>

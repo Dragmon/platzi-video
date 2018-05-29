@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import Playlist from '../../playlist/components/playlist';
-import '../../playlist/css/category.css'
+import '../../playlist/css/category.css';
 
 function Category(props) {
     return(

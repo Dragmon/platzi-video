@@ -12,12 +12,20 @@ function Search(props) {
 }
 */
 
-const Search = () => (
-    <form className="Form-search">
+const Search = (props) => (
+    <form
+        className="Form-search"
+        onSubmit={props.handleSubmit}
+    >
         <input
+            ref={props.setRef}
             type="text"
             placeholder="Busca tu videos favorito"
             className="Input-search"
+            name="search"
+            onChange={props.handleChange}
+            value = {props.value}
+            //defaultValue = "Mi cancion favorita"
         />
     </form>
 )

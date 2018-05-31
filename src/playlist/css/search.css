@@ -1,10 +1,11 @@
 .Input-search {
     width: 300px;
     height: auto;
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px 15px 0;
     border-radius: 10px;
     border: solid 2px #9c9a9a;
+    padding: 5px;
 }
 
 .Input-search::-webkit-input-placeholder {
